@@ -8,12 +8,11 @@ from threading import Thread
 import random
 from clock import LambertClock
 
-def consumer(conn):
+def consumer(conn,clock_speed):
     print("consumer accepted connection" + str(conn)+"\n")
     msg_queue=[]
-    sleepVal = 0.900
     while True:
-        time.sleep(sleepVal)
+        time.sleep(clock_speed)
         data = conn.recv(1024)
         print("msg received\n")
         dataVal = data.decode('ascii')
@@ -52,10 +51,10 @@ def init_machine(config):
     s.listen()
     # print(config[-1])
     # print(config)
-    config[-2].tick()
+    config[-3].tick()
     while True:
         conn, addr = s.accept()
-        start_new_thread(consumer, (conn,))
+        start_new_thread(consumer, (conn,config[-2]))
  
 
 def machine(config):
@@ -72,7 +71,7 @@ def machine(config):
 
 
     while True:
-      code = random.randint(1,3)
+      code = random.randint(1,10)
 
 
 
@@ -83,13 +82,14 @@ if __name__ == '__main__':
     port1 = 2056
     port2 = 3056
     port3 = 4056
-    
+
+    clock_speed_1,clock_speed_2,clock_speed_3 = random.randint(1, 6),random.randint(1, 6),random.randint(1, 6)
     clock1,clock2,clock3 = LambertClock("c1", "clock1_history.csv"),LambertClock("c2", "clock2_history.csv"),LambertClock("c3", "clock3_history.csv")
-    config1=[localHost, port1, port2,clock1]
+    config1=[localHost, port1, port2,clock1,clock_speed_1]
     p1 = Process(target=machine, args=(config1,))
-    config2=[localHost, port2, port3,clock2]
+    config2=[localHost, port2, port3,clock2,clock_speed_2]
     p2 = Process(target=machine, args=(config2,))
-    config3=[localHost, port3, port1,clock3]
+    config3=[localHost, port3, port1,clock3,clock_speed_3]
     p3 = Process(target=machine, args=(config3,))
     
 
