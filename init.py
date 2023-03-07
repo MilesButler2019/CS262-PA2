@@ -25,8 +25,9 @@ for script in files:
     count += 1
     processes.append(process)
 
-
-time.sleep(90)
+#Run for 120 seconds
+time.sleep(20)
 
 for i in processes:
     i.kill()
+    time.sleep(1)

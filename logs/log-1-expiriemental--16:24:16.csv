@@ -1,0 +1,107 @@
+Initialization Completed, Clock Speed 1
+Time, Logical_Clock, Action, queue_length 
+16:24:21, 1, recieved message, 0
+16:24:22, 3, recieved message, 1
+16:24:23, 4, recieved message, 0
+16:24:24, 9, recieved message, 1
+16:24:25, 11, recieved message, 1
+16:24:26, 13, recieved message, 2
+16:24:27, 15, recieved message, 1
+16:24:28, 16, recieved message, 1
+16:24:29, 22, recieved message, 0
+16:24:30, 27, recieved message, 0
+16:24:31, 28, sleep, 0
+16:24:32, 29, sent message to first, 0
+16:24:33, 38, recieved message, 0
+16:24:34, 39, sleep, 0
+16:24:35, 43, recieved message, 0
+16:24:36, 46, recieved message, 0
+16:24:37, 47, sleep, 0
+16:24:38, 51, recieved message, 1
+16:24:39, 53, recieved message, 0
+16:24:40, 54, sleep, 0
+16:24:41, 61, recieved message, 0
+16:24:42, 62, sent message to first, 0
+16:24:43, 67, recieved message, 0
+16:24:44, 68, sleep, 0
+16:24:45, 74, recieved message, 0
+16:24:46, 75, sent message to first, 0
+16:24:47, 79, recieved message, 0
+16:24:48, 83, recieved message, 0
+16:24:49, 84, sent message to first, 0
+16:24:50, 88, recieved message, 1
+16:24:51, 89, recieved message, 1
+16:24:52, 92, recieved message, 1
+16:24:53, 94, recieved message, 1
+16:24:54, 96, recieved message, 1
+16:24:55, 101, recieved message, 1
+16:24:56, 102, recieved message, 1
+16:24:57, 105, recieved message, 2
+16:24:58, 109, recieved message, 3
+16:24:59, 110, recieved message, 2
+16:25:00, 111, recieved message, 3
+16:25:01, 113, recieved message, 3
+16:25:02, 117, recieved message, 5
+16:25:03, 118, recieved message, 4
+16:25:04, 120, recieved message, 4
+16:25:05, 123, recieved message, 3
+16:25:06, 124, recieved message, 3
+16:25:07, 125, recieved message, 2
+16:25:08, 130, recieved message, 2
+16:25:09, 136, recieved message, 2
+16:25:10, 143, recieved message, 1
+16:25:11, 146, recieved message, 0
+16:25:12, 147, sleep, 0
+16:25:13, 158, recieved message, 0
+16:25:14, 159, sent message to first, 0
+16:25:15, 160, sent message to both, 0
+16:25:16, 161, sent message to second, 0
+16:25:17, 162, sleep, 0
+16:25:18, 171, recieved message, 0
+16:25:19, 175, recieved message, 0
+16:25:20, 178, recieved message, 0
+16:25:21, 182, recieved message, 0
+16:25:22, 183, recieved message, 2
+16:25:23, 184, recieved message, 1
+16:25:24, 185, recieved message, 1
+16:25:25, 191, recieved message, 1
+16:25:26, 193, recieved message, 1
+16:25:27, 195, recieved message, 2
+16:25:28, 199, recieved message, 3
+16:25:29, 200, recieved message, 3
+16:25:30, 201, recieved message, 2
+16:25:31, 202, recieved message, 2
+16:25:32, 205, recieved message, 3
+16:25:33, 211, recieved message, 3
+16:25:34, 212, recieved message, 5
+16:25:35, 213, recieved message, 5
+16:25:36, 218, recieved message, 6
+16:25:37, 219, recieved message, 5
+16:25:38, 220, recieved message, 5
+16:25:39, 221, recieved message, 5
+16:25:40, 224, recieved message, 4
+16:25:41, 225, recieved message, 4
+16:25:42, 226, recieved message, 4
+16:25:43, 232, recieved message, 4
+16:25:44, 236, recieved message, 4
+16:25:45, 241, recieved message, 4
+16:25:46, 244, recieved message, 5
+16:25:47, 246, recieved message, 4
+16:25:48, 249, recieved message, 4
+16:25:49, 253, recieved message, 3
+16:25:50, 256, recieved message, 3
+16:25:51, 257, recieved message, 3
+16:25:52, 261, recieved message, 2
+16:25:53, 269, recieved message, 3
+16:25:54, 272, recieved message, 4
+16:25:55, 276, recieved message, 3
+16:25:56, 277, recieved message, 3
+16:25:57, 279, recieved message, 3
+16:25:58, 280, recieved message, 2
+16:25:59, 286, recieved message, 2
+16:26:00, 290, recieved message, 1
+16:26:01, 296, recieved message, 0
+16:26:02, 303, recieved message, 0
+16:26:03, 304, sleep, 0
+16:26:04, 309, recieved message, 1
+16:26:05, 310, recieved message, 0

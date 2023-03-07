@@ -43,23 +43,21 @@ def tick(s1, s2,log_file):
         action = "recieved message"
     else:
         code = random.randint(1, 10)
-        if code == 1:
-            # TODO: Have some identification of s1 and s2 for logging
+        if code == 1 or code == 2:
             action = "sent message to first"
             s1.sendall(str(clock).encode())
-        elif code == 2:
+        elif code == 3 or code == 4:
             action = "sent message to second"
             s2.sendall(str(clock).encode())
-        elif code == 3:
+        elif code == 4 or code == 5:
             action = "sent message to both"
             s1.sendall(str(clock).encode())
             s2.sendall(str(clock).encode())
         else:
             action = "sleep"
         clock += 1
-    # print(time.strftime('%H:%M:%S', time.localtime()) + " / " + str(clock) + ": " + action)
     log_file.write(time.strftime('%H:%M:%S', time.localtime()) + ", " + str(clock) + ", " + action + ", " + str(len(msg_queue)) + "\n")
-    # LOG.write(time.strftime('%H:%M:%S', time.localtime()) + " / " + str(clock) + ": " + action + "\n")
+
  
 
 
@@ -85,9 +83,8 @@ def bind_machine(sockets,machine_id,num_conns):
 
 
 def initialize(machine_id):
-    log_txt = open("logs/log-" + str(machine_id) +".csv", "w")
+    log = open("logs/log-" + str(machine_id) + "-expiriemental-" +"-"+ str(time.strftime('%H:%M:%S', time.localtime())) + ".csv", "w")
     sockets = []
-
     # machine 1 waits for 2 connections
     if machine_id == 1:
         bind_machine(sockets,machine_id,2)
@@ -104,18 +101,21 @@ def initialize(machine_id):
 
 
     #Set random clock speed       
-    clock_speed = random.randint(1, 6)
+    clock_speed = random.randint(1, 3)
     start = time.time()
     period = 1.0 / clock_speed
-    log_txt.write("Initialization Completed, Clock Speed " + str(clock_speed) + "\n")
+    log.write("Initialization Completed, Clock Speed " + str(clock_speed) + "\n")
+    log.write("Time, Logical_Clock, Action, queue_length \n")
+
+
     try:
         # time.sleep(machine_id / 100)
         while True:
             if (time.time() - start) > period:
                 start += period
-                tick(sockets[0], sockets[1],log_txt)
-    finally:
-        log_txt.close()
+                tick(sockets[0], sockets[1],log)
+    except:
+        log.close()
 
 def get_socket(id):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
