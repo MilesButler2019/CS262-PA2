@@ -1,0 +1,403 @@
+Initialization Completed, Clock Speed 5
+Time, Logical_Clock, Action, queue_length 
+15:34:42, 1, sent message to first, 0
+15:34:42, 2, sleep, 0
+15:34:42, 3, recieved message, 0
+15:34:43, 4, sleep, 0
+15:34:43, 5, sleep, 0
+15:34:43, 6, sent message to first, 0
+15:34:43, 7, sleep, 0
+15:34:43, 8, sent message to first, 0
+15:34:44, 9, sent message to first, 0
+15:34:44, 10, recieved message, 0
+15:34:44, 11, recieved message, 0
+15:34:44, 12, sleep, 0
+15:34:44, 13, sleep, 0
+15:34:45, 14, sleep, 0
+15:34:45, 15, sleep, 0
+15:34:45, 16, sleep, 0
+15:34:45, 17, sleep, 0
+15:34:45, 18, sleep, 0
+15:34:46, 19, sleep, 0
+15:34:46, 20, recieved message, 0
+15:34:46, 21, sleep, 0
+15:34:46, 22, sent message to first, 0
+15:34:46, 23, sleep, 0
+15:34:47, 24, sent message to first, 0
+15:34:47, 25, sleep, 0
+15:34:47, 26, recieved message, 0
+15:34:47, 27, sent message to first, 0
+15:34:47, 28, recieved message, 0
+15:34:48, 29, recieved message, 0
+15:34:48, 30, sent message to second, 0
+15:34:48, 31, sent message to second, 0
+15:34:48, 32, sleep, 0
+15:34:48, 33, sleep, 0
+15:34:49, 34, recieved message, 0
+15:34:49, 35, sent message to first, 0
+15:34:49, 36, sent message to both, 0
+15:34:49, 37, sleep, 0
+15:34:49, 38, sent message to first, 0
+15:34:50, 39, recieved message, 0
+15:34:50, 40, sent message to both, 0
+15:34:50, 41, sleep, 0
+15:34:50, 42, sleep, 0
+15:34:50, 43, sleep, 0
+15:34:51, 44, recieved message, 0
+15:34:51, 45, recieved message, 0
+15:34:51, 46, sleep, 0
+15:34:51, 47, recieved message, 0
+15:34:51, 48, recieved message, 0
+15:34:52, 49, sleep, 0
+15:34:52, 50, sleep, 0
+15:34:52, 51, sleep, 0
+15:34:52, 52, sleep, 0
+15:34:52, 53, sleep, 0
+15:34:53, 54, recieved message, 0
+15:34:53, 55, sleep, 0
+15:34:53, 56, sent message to second, 0
+15:34:53, 57, sleep, 0
+15:34:53, 58, sleep, 0
+15:34:54, 59, sleep, 0
+15:34:54, 60, sleep, 0
+15:34:54, 61, sleep, 0
+15:34:54, 62, sent message to second, 0
+15:34:54, 63, sent message to both, 0
+15:34:55, 64, sleep, 0
+15:34:55, 65, sleep, 0
+15:34:55, 66, recieved message, 0
+15:34:55, 67, sleep, 0
+15:34:55, 68, sleep, 0
+15:34:56, 69, sent message to both, 0
+15:34:56, 70, sleep, 0
+15:34:56, 71, sleep, 0
+15:34:56, 72, sleep, 0
+15:34:56, 73, sleep, 0
+15:34:57, 74, sleep, 0
+15:34:57, 75, sent message to both, 0
+15:34:57, 76, recieved message, 0
+15:34:57, 77, sent message to both, 0
+15:34:57, 78, sleep, 0
+15:34:58, 79, sleep, 0
+15:34:58, 80, sleep, 0
+15:34:58, 81, sleep, 0
+15:34:58, 82, sent message to second, 0
+15:34:58, 83, recieved message, 0
+15:34:59, 84, sent message to second, 0
+15:34:59, 85, sleep, 0
+15:34:59, 86, sleep, 0
+15:34:59, 87, sent message to first, 0
+15:34:59, 88, sent message to second, 0
+15:35:00, 89, recieved message, 0
+15:35:00, 90, sleep, 0
+15:35:00, 91, recieved message, 0
+15:35:00, 92, recieved message, 0
+15:35:00, 93, sleep, 0
+15:35:01, 94, recieved message, 0
+15:35:01, 95, recieved message, 0
+15:35:01, 96, sleep, 0
+15:35:01, 97, sleep, 0
+15:35:01, 98, sent message to second, 0
+15:35:02, 99, sleep, 0
+15:35:02, 100, sleep, 0
+15:35:02, 101, recieved message, 0
+15:35:02, 102, sleep, 0
+15:35:02, 103, sleep, 0
+15:35:03, 104, sleep, 0
+15:35:03, 105, sleep, 0
+15:35:03, 106, sleep, 0
+15:35:03, 107, sleep, 0
+15:35:03, 108, sleep, 0
+15:35:04, 109, recieved message, 0
+15:35:04, 110, sleep, 0
+15:35:04, 111, sleep, 0
+15:35:04, 112, recieved message, 0
+15:35:04, 113, sent message to first, 0
+15:35:05, 114, sleep, 0
+15:35:05, 115, sleep, 0
+15:35:05, 116, sent message to first, 0
+15:35:05, 117, sleep, 0
+15:35:05, 118, sent message to second, 0
+15:35:06, 119, recieved message, 0
+15:35:06, 120, sent message to second, 0
+15:35:06, 121, sleep, 0
+15:35:06, 122, sleep, 0
+15:35:06, 123, sleep, 0
+15:35:07, 124, sleep, 0
+15:35:07, 125, recieved message, 0
+15:35:07, 126, sent message to first, 0
+15:35:07, 127, sleep, 0
+15:35:07, 128, sent message to second, 0
+15:35:08, 129, sleep, 0
+15:35:08, 130, sleep, 0
+15:35:08, 131, recieved message, 0
+15:35:08, 132, recieved message, 0
+15:35:08, 133, sleep, 0
+15:35:09, 134, sent message to second, 0
+15:35:09, 135, sent message to both, 0
+15:35:09, 136, sleep, 0
+15:35:09, 137, sleep, 0
+15:35:09, 138, sleep, 0
+15:35:10, 139, recieved message, 0
+15:35:10, 140, sleep, 0
+15:35:10, 141, sleep, 0
+15:35:10, 142, sleep, 0
+15:35:10, 143, sleep, 0
+15:35:11, 144, sleep, 0
+15:35:11, 145, sleep, 0
+15:35:11, 146, sent message to first, 0
+15:35:11, 147, sent message to second, 0
+15:35:11, 148, sleep, 0
+15:35:12, 149, sent message to both, 0
+15:35:12, 150, sleep, 0
+15:35:12, 151, sleep, 0
+15:35:12, 152, sleep, 0
+15:35:12, 153, recieved message, 0
+15:35:13, 154, sleep, 0
+15:35:13, 155, sleep, 0
+15:35:13, 156, sleep, 0
+15:35:13, 157, sent message to both, 0
+15:35:13, 158, sleep, 0
+15:35:14, 159, sleep, 0
+15:35:14, 160, recieved message, 0
+15:35:14, 161, sleep, 0
+15:35:14, 162, sent message to both, 0
+15:35:14, 163, sleep, 0
+15:35:15, 164, sent message to first, 0
+15:35:15, 165, sleep, 0
+15:35:15, 166, sent message to first, 0
+15:35:15, 167, sleep, 0
+15:35:15, 168, sent message to both, 1
+15:35:16, 169, recieved message, 0
+15:35:16, 170, sent message to second, 0
+15:35:16, 171, sleep, 0
+15:35:16, 172, sent message to both, 0
+15:35:16, 173, sent message to both, 0
+15:35:17, 174, sleep, 0
+15:35:17, 175, sent message to second, 0
+15:35:17, 176, sleep, 0
+15:35:17, 177, sleep, 0
+15:35:17, 178, sent message to second, 0
+15:35:18, 179, sleep, 0
+15:35:18, 180, sleep, 0
+15:35:18, 181, recieved message, 0
+15:35:18, 182, sent message to both, 0
+15:35:18, 183, sleep, 0
+15:35:19, 184, sleep, 0
+15:35:19, 185, sleep, 0
+15:35:19, 186, recieved message, 0
+15:35:19, 187, sleep, 0
+15:35:19, 188, sleep, 0
+15:35:20, 189, sent message to both, 0
+15:35:20, 190, recieved message, 0
+15:35:20, 191, sleep, 0
+15:35:20, 192, sleep, 0
+15:35:20, 193, sleep, 0
+15:35:21, 194, sleep, 0
+15:35:21, 195, sleep, 0
+15:35:21, 196, sleep, 0
+15:35:21, 197, sleep, 0
+15:35:21, 198, sleep, 0
+15:35:22, 199, sent message to second, 0
+15:35:22, 200, sent message to second, 0
+15:35:22, 201, sleep, 0
+15:35:22, 202, sleep, 0
+15:35:22, 203, sleep, 0
+15:35:23, 204, sleep, 0
+15:35:23, 205, sleep, 0
+15:35:23, 206, sent message to first, 0
+15:35:23, 207, sent message to both, 0
+15:35:23, 208, sleep, 0
+15:35:24, 209, sent message to second, 1
+15:35:24, 210, recieved message, 0
+15:35:24, 211, sleep, 0
+15:35:24, 212, recieved message, 0
+15:35:24, 213, sent message to first, 0
+15:35:25, 214, sleep, 0
+15:35:25, 215, sleep, 0
+15:35:25, 216, sleep, 0
+15:35:25, 217, sent message to first, 0
+15:35:25, 218, sleep, 0
+15:35:26, 219, recieved message, 0
+15:35:26, 220, sent message to both, 0
+15:35:26, 221, sent message to second, 0
+15:35:26, 222, sent message to both, 0
+15:35:26, 223, sleep, 0
+15:35:27, 224, sleep, 0
+15:35:27, 225, sleep, 0
+15:35:27, 226, sent message to second, 0
+15:35:27, 227, sleep, 0
+15:35:27, 228, sent message to both, 0
+15:35:28, 229, sleep, 0
+15:35:28, 230, sent message to second, 0
+15:35:28, 231, sent message to second, 0
+15:35:28, 232, sent message to both, 0
+15:35:28, 233, sleep, 0
+15:35:29, 234, sleep, 0
+15:35:29, 235, sleep, 0
+15:35:29, 236, sleep, 0
+15:35:29, 237, sleep, 0
+15:35:29, 238, sleep, 0
+15:35:30, 239, sleep, 0
+15:35:30, 240, sleep, 0
+15:35:30, 241, recieved message, 0
+15:35:30, 242, sent message to second, 0
+15:35:30, 243, sleep, 0
+15:35:31, 244, sleep, 0
+15:35:31, 245, sent message to second, 0
+15:35:31, 246, sleep, 0
+15:35:31, 247, sleep, 0
+15:35:31, 248, sent message to first, 1
+15:35:32, 249, recieved message, 0
+15:35:32, 250, sleep, 0
+15:35:32, 251, sleep, 0
+15:35:32, 252, sent message to second, 0
+15:35:32, 253, sent message to both, 0
+15:35:33, 254, sleep, 0
+15:35:33, 255, sleep, 0
+15:35:33, 256, recieved message, 0
+15:35:33, 257, sent message to first, 0
+15:35:33, 258, sent message to first, 1
+15:35:34, 259, recieved message, 0
+15:35:34, 260, recieved message, 0
+15:35:34, 261, sent message to first, 0
+15:35:34, 262, sleep, 0
+15:35:34, 263, sleep, 0
+15:35:35, 264, sleep, 0
+15:35:35, 265, sleep, 0
+15:35:35, 266, sent message to second, 0
+15:35:35, 267, sleep, 0
+15:35:35, 268, sent message to both, 0
+15:35:36, 269, sleep, 0
+15:35:36, 270, sleep, 0
+15:35:36, 271, sleep, 0
+15:35:36, 272, sleep, 0
+15:35:36, 273, sleep, 0
+15:35:37, 274, recieved message, 0
+15:35:37, 275, sent message to both, 0
+15:35:37, 276, sent message to both, 0
+15:35:37, 277, sleep, 0
+15:35:37, 278, sleep, 0
+15:35:38, 279, sleep, 0
+15:35:38, 280, sent message to first, 1
+15:35:38, 281, recieved message, 0
+15:35:38, 282, sleep, 0
+15:35:38, 283, sleep, 0
+15:35:39, 284, sleep, 0
+15:35:39, 285, recieved message, 0
+15:35:39, 286, sent message to second, 0
+15:35:39, 287, sleep, 0
+15:35:39, 288, sleep, 0
+15:35:40, 289, recieved message, 0
+15:35:40, 290, sleep, 0
+15:35:40, 291, recieved message, 0
+15:35:40, 292, recieved message, 0
+15:35:40, 293, sleep, 0
+15:35:41, 294, sleep, 0
+15:35:41, 295, recieved message, 0
+15:35:41, 296, sent message to second, 0
+15:35:41, 297, sleep, 0
+15:35:41, 298, sleep, 0
+15:35:42, 299, recieved message, 0
+15:35:42, 300, sleep, 0
+15:35:42, 301, recieved message, 0
+15:35:42, 302, sleep, 0
+15:35:42, 303, recieved message, 0
+15:35:43, 304, sleep, 0
+15:35:43, 305, sent message to both, 0
+15:35:43, 306, sleep, 0
+15:35:43, 307, sleep, 0
+15:35:43, 308, sent message to both, 0
+15:35:44, 309, sent message to first, 0
+15:35:44, 310, sleep, 0
+15:35:44, 311, sleep, 0
+15:35:44, 312, sleep, 0
+15:35:44, 313, sleep, 0
+15:35:45, 314, sleep, 0
+15:35:45, 315, sleep, 0
+15:35:45, 316, recieved message, 0
+15:35:45, 317, sent message to second, 0
+15:35:45, 318, sleep, 0
+15:35:46, 319, sleep, 0
+15:35:46, 320, sent message to first, 0
+15:35:46, 321, sleep, 0
+15:35:46, 322, recieved message, 0
+15:35:46, 323, sleep, 0
+15:35:47, 324, sleep, 0
+15:35:47, 325, sent message to second, 0
+15:35:47, 326, sleep, 0
+15:35:47, 327, sleep, 0
+15:35:47, 328, sleep, 0
+15:35:48, 329, sleep, 0
+15:35:48, 330, sleep, 0
+15:35:48, 331, recieved message, 0
+15:35:48, 332, sleep, 0
+15:35:48, 333, sleep, 0
+15:35:49, 334, sleep, 0
+15:35:49, 335, sleep, 0
+15:35:49, 336, sleep, 0
+15:35:49, 337, sent message to first, 0
+15:35:49, 338, sent message to first, 0
+15:35:50, 339, sent message to both, 0
+15:35:50, 340, sleep, 0
+15:35:50, 341, sent message to second, 0
+15:35:50, 342, sleep, 0
+15:35:50, 343, sleep, 0
+15:35:51, 344, sleep, 0
+15:35:51, 345, recieved message, 0
+15:35:51, 346, recieved message, 0
+15:35:51, 347, sent message to second, 0
+15:35:51, 348, sleep, 0
+15:35:52, 349, sleep, 0
+15:35:52, 350, sleep, 0
+15:35:52, 351, sleep, 0
+15:35:52, 352, sleep, 0
+15:35:52, 353, sleep, 0
+15:35:53, 354, sleep, 0
+15:35:53, 355, recieved message, 0
+15:35:53, 356, sent message to first, 0
+15:35:53, 357, sent message to first, 0
+15:35:53, 358, sent message to both, 0
+15:35:54, 359, sent message to both, 0
+15:35:54, 360, sent message to both, 0
+15:35:54, 361, sent message to second, 0
+15:35:54, 362, sleep, 0
+15:35:54, 363, sleep, 0
+15:35:55, 364, sleep, 0
+15:35:55, 365, sleep, 0
+15:35:55, 366, recieved message, 0
+15:35:55, 367, sleep, 0
+15:35:55, 368, sleep, 0
+15:35:56, 369, sleep, 0
+15:35:56, 370, sleep, 0
+15:35:56, 371, sleep, 0
+15:35:56, 372, sent message to both, 0
+15:35:56, 373, sent message to both, 0
+15:35:57, 374, sleep, 0
+15:35:57, 375, sleep, 0
+15:35:57, 376, recieved message, 0
+15:35:57, 377, sleep, 0
+15:35:57, 378, sleep, 0
+15:35:58, 379, sleep, 0
+15:35:58, 380, sleep, 0
+15:35:58, 381, sent message to second, 0
+15:35:58, 382, sleep, 0
+15:35:58, 383, sent message to both, 0
+15:35:59, 384, sleep, 0
+15:35:59, 385, sent message to both, 0
+15:35:59, 386, sent message to both, 0
+15:35:59, 387, sleep, 0
+15:35:59, 388, sleep, 0
+15:36:00, 389, sent message to second, 0
+15:36:00, 390, sleep, 0
+15:36:00, 391, sleep, 0
+15:36:00, 392, recieved message, 0
+15:36:00, 393, sleep, 0
+15:36:01, 394, sleep, 0
+15:36:01, 395, sleep, 0
+15:36:01, 396, sleep, 0
+15:36:01, 397, sleep, 0
+15:36:01, 398, recieved message, 0
+15:36:02, 399, sleep, 0
+15:36:02, 400, sent message to second, 0
+15:36:02, 401, sleep, 0
