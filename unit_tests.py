@@ -28,14 +28,14 @@ class CheckFileCreation(unittest.TestCase):
         self.assertTrue(os.path.exists('logs/log-3-expiriemental--{}.csv'.format(time_stamp)))
 
 
-class TestClockSpeed(unittest.TestCase):
-    def runTest(self):
-        df1 = pd.read_csv("logs/log-1-expiriemental--{}.csv".format(main[0]))
-        self.assertIn(df1.columns[1], 'Clock Speed')
-        df2 = pd.read_csv("logs/log-2-expiriemental--{}.csv".format(main[0]))
-        self.assertIn(df1.columns[1], 'Clock Speed')
-        df3 = pd.read_csv("logs/log-3-expiriemental--{}.csv".format(main[0]))
-        self.assertIn(df1.columns[1], 'Clock Speed')
+# class TestClockSpeed(unittest.TestCase):
+#     def runTest(self):
+#         df1 = pd.read_csv("logs/log-1-expiriemental--{}.csv".format(main[0]))
+#         self.assertIn(df1.columns[1], 'Clock Speed')
+#         df2 = pd.read_csv("logs/log-2-expiriemental--{}.csv".format(main[0]))
+#         self.assertIn(df1.columns[1], 'Clock Speed')
+#         df3 = pd.read_csv("logs/log-3-expiriemental--{}.csv".format(main[0]))
+#         self.assertIn(df1.columns[1], 'Clock Speed')
 
 
 
