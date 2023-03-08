@@ -1,13 +1,45 @@
 # CS262-PA2
+ CS262-PA2
+
+# Overview
+We start by initializing a simulation of a distributed system composed of three machines connected to each other over a network. The machines communicate with each other using sockets and exchange messages using a tick-based protocol.
+The simulation is driven by a clock that determines the frequency of the ticks.
+launches three separate Python processes, each running the same test.py script with a different argument val passed in as count. The subprocesses are started using subprocess.Popen() and the parent process waits for 20 seconds before killing them all.
+
+The code is written in Python and uses the built-in socket library to create and manage sockets. The random and time libraries are also used to generate random clock speeds and to implement the clock, respectively.
+
+# Requirements
+To run the simulation, you will need Python 3 and the following libraries:
+
+socket
+random
+time
+threading
+
+# Setup
+Our script initializes three machines, each of which is assigned a unique ID (1, 2, or 3). Those machines are all connected to each other using sockets, and each machine runs a clock that maintains a global logical time across all the machines.
+
+We first start by defining some global variables, including the clock time, the log file, the host IP, and the ports for each machine. We also initialize a message queue and a lock for synchronizing access to the queue.
+
+The consumer function is a thread that receives messages from other machines and updates the message queue. 
+Our main function is the tick function, which mainly advances the logical clock based on incoming messages or sends messages to other machines.
+
+The connect_machine function is a thread that tries to connect to a specific machine until a successful connection is made. 
+
+The bind_machine function binds to a specific port and accepts incoming connections until a specific number of connections are made. 
+
+The initialize function initializes each machine by binding to the appropriate ports and connecting to the appropriate machines.
+
+We defined a helper function, the get_socket function, to connect to a specific machine and returns an error code and socket object. Accordingly, our main function reads the machine ID from the command-line argument and initializes the appropriate machine.
 
 # What didn't work
 
-Throughout this assignment we first attempted to use subprocess similar to what varun mentioned in the lab on friday although we had issues trying to differentiate the machines (know what machine sent what). After a while we decided to stick to what we knew and just use threads and seperate files. Upon do this we were fine and made a consumer thread for each machine and were a bit confused on how to initalize all the machines and have them connect to eachother so we manually connected them which is less than ideal although we wanted to save time and do what worked. After this we were a bit confused on the the clockspeed but after looking on ed there were some similar question ands some nice classmates.
+Throughout this assignment we first attempted to use subprocess similar to what varun mentioned in the lab on Friday although we had issues trying to differentiate the machines (know what machine sent what). After a while we decided to stick to what we knew and just use threads and seperate files. Upon do this we were fine and made a consumer thread for each machine and were a bit confused on how to initalize all the machines and have them connect to eachother so we manually connected them which is less than ideal although we wanted to save time and do what worked. After this we were a bit confused on the the clockspeed but after looking on ed there were some similar question ands some nice classmates.
 
 
 # Hypothesis
 
-We hypothesized that machines that had lower clock speeds would expirience more drift than machines with higher clock speeds and thus have larger queues
+We hypothesized that machines that had lower clock speeds would expirience a latger drift than machines with higher clock speeds and thus have larger queues. 
 
 # Expiriements
 
